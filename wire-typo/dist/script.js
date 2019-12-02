@@ -39,7 +39,7 @@ document.querySelector("#canvas-wrapper").appendChild(renderer.domElement);
 const group = new THREE.Group(); // To add 3d float effect
 const typoLoader = new THREE.FontLoader();
 const createTypo = font => {
-  const word = "sage";
+  const word = "Sage love u";
   const typoSize = 120;
   const typoProperties = {
     font: font,
